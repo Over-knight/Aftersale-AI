@@ -1,0 +1,22 @@
+project_id = "iviuepdbmkszuhtdmksd"
+
+[functions.customers]
+verify_jwt = true
+
+[functions.sales]
+verify_jwt = true
+
+[functions.campaigns]
+verify_jwt = true
+
+[functions.generate-campaign]
+verify_jwt = true
+
+[functions.send-message]
+verify_jwt = true
+
+[functions.analytics]
+verify_jwt = true
+
+[functions.watsonx-webhook]
+verify_jwt = false
